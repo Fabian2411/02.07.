@@ -90,8 +90,21 @@ section:nth-of-type(4) a{
     font-family: 'Fjalla One', sans-serif;
     color: #FFFFFF;
     font-size: 16px;
-    border-style: solid;
+    border-style: solid;   
 }
+
+section:nth-of-type(4) a:hover{
+    color: pink;   
+}
+section:nth-of-type(4) a:hover ~ .Zahl{
+    color: pink;   
+}
+
+.Zahl{
+    color: white;
+    font-size: 40px;
+}
+
 /*section:nth-of-type(4) a:hover{
     background-color:#FFFFFF;
     color: #000;*/
